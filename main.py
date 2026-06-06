@@ -1,36 +1,21 @@
-# 1
-
 a = int(input())
-b = int(input())
-c = int(input())
+if (a <= 10) and (a >= 0):
+    print("yes")
+else:
+    print("no")
 
-sum = a + b + c
-prod = a * b * c
 
-print(f"sum = {sum}, product = {prod}")
+if a <= 10:
+    if a >= 0:
+        print("yes")
+else:
+    print("no")
 
-#2
+if a <= 0 or a >= 10:
 
-sal = int(input("salary:"))
-cred = int(input("credit:"))
-ar = int(input("arrears:"))
+    print("no")
 
-result = sal - cred - ar
+else:
 
-print(result)
+    print("yes")
 
-#3
-d_1 = int(input())
-d_2 = int(input())
-
-s = (d_1 + d_2)/2
-
-print(s)
-
-#4
-
-print("To be \nor not \nto be")
-
-#4
-
-print("Life is what happenes \n when \n  you're buse making other plans")
