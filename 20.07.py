@@ -79,14 +79,16 @@
 #     return a
 #
 # print(unic_all(ls1, ls2))
+#
+#
+#
+# dic1 = {"anny": 21, "joy": 22, "bob": 33}
+# dic2 = {"anny": 21, "bill": 22, "bob": 33}
+# dic3 = {}
+#
+# print(dic3)
 
 
-
-dic1 = {"anny": 21, "joy": 22, "bob": 33}
-dic2 = {"anny": 21, "bill": 22, "bob": 33}
-dic3 = {}
-
-print(dic3)
 
 
 
